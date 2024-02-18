@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+.app {
+  transition: background-color 0.3s ease;
+}
+
+.dark {
+  background-color: #18181b;
+  color: #fff;
+  border-color: #fff;
+}
+
+.light {
+  background-color: #fff;
+  color: #18181b;
+  border-color: #18181b;
+}
