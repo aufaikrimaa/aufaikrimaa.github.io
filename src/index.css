@@ -21,3 +21,8 @@ body {
   color: #18181b;
   border-color: #18181b;
 }
+
+.skills-md {
+  height: 50vh;
+  overflow: hidden;
+}

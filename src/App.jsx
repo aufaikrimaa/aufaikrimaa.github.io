@@ -208,7 +208,7 @@ function App() {
               </div>
             )}
             {activeTab === "skills" && (
-              <div className="m-2">
+              <div className="m-2 skills-md">
                 <Skills />
               </div>
             )}
