@@ -1,5 +1,5 @@
 import React from "react";
-import profilephoto from "../assets/img/profile.jpg";
+import profilephoto from "../assets/img/aupa.svg";
 import sun from "../assets/img/light.svg";
 import moon from "../assets/img/dark.svg";
 import crown from "../assets/img/crown.svg";
