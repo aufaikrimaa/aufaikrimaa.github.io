@@ -7,33 +7,33 @@ import voal from "../assets/img/voal.jpg";
 
 export const projects = [
   {
-    title: "Credenza Silk",
+    title: "She Talk",
     photo: silk,
-    price: "Rp.45.000,-",
+    lang: "#ReactJs #ExpressJS #Bootstrap #MySQL",
   },
   {
     title: "Summer Skirt",
     photo: skirt,
-    price: "Rp.75.000,-",
+    lang: "Rp.75.000,-",
   },
   {
     title: "Pleated Pashmina",
     photo: plisket,
-    price: "Rp.35.000,-",
+    lang: "Rp.35.000,-",
   },
   {
     title: "Alwa Scarf",
     photo: alwa,
-    price: "Rp.35.000,-",
+    lang: "Rp.35.000,-",
   },
   {
     title: "Pashmina Ceruty",
     photo: ceruty,
-    price: "Rp.40.000,-",
+    lang: "Rp.40.000,-",
   },
   {
     title: "Voal Scarf",
     photo: voal,
-    price: "Rp.40.000,-",
+    lang: "Rp.40.000,-",
   },
 ];
