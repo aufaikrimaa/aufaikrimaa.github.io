@@ -1,7 +1,7 @@
 import border from "../assets/img/border.svg";
 
-const Learn = ({ testimonial }) => {
-  const { uname, content, image } = testimonial;
+const Learn = ({ course }) => {
+  const { uname, content } = course;
 
   return (
     <>

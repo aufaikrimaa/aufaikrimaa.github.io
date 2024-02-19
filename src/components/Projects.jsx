@@ -1,5 +1,5 @@
 function Showcase(props) {
-  const { title, photo, price } = props.products;
+  const { title, photo, price } = props.projects;
 
   return (
     <div className="w-full shadow-md shadow-rose-200 rounded-lg z-10">
