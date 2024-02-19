@@ -21,7 +21,7 @@ const Skills = () => {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="bg-gray-200 rounded-full px-3 py-1 mr-2 mb-2"
+              className="bg-gray-200 rounded-full px-3 py-1 mr-2 mb-2 text-sm"
             >
               {skill}
             </div>
