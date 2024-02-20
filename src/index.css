@@ -11,15 +11,15 @@ body {
 }
 
 .dark {
-  background-color: #18181b;
+  background-color: #111827;
   color: #fff;
   border-color: #fff;
 }
 
 .light {
-  background-color: #fff;
-  color: #18181b;
-  border-color: #18181b;
+  background-color: #fdf9ff;
+  color: #111827;
+  border-color: #111827;
 }
 
 .skills-md {

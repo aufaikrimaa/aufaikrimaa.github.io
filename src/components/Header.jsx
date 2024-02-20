@@ -8,11 +8,9 @@ function Header({ isDarkMode, toggleDarkMode }) {
   return (
     <>
       <div
-        className={`relative h-20 mb-16 transition-all duration-300 z-1 ${
-          isDarkMode
-            ? "bg-[url('./assets/img/header-dark.svg')]"
-            : "bg-[url('./assets/img/header-light.svg')]"
-        }`}
+        className={
+          "relative h-20 mb-16 transition-all duration-300 z-1  bg-[#C2B8FD]"
+        }
       >
         <button
           onClick={toggleDarkMode}

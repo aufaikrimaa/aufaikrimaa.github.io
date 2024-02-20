@@ -1,13 +1,17 @@
+import logoPI from "../assets/img/logoPI.jpg";
+
 export const course = [
   {
+    image: logoPI,
     track: "Perempuan Inovasi",
     date: "On going",
     name: "Full Stack Web Development",
     content:
-      "Gatau senyaman itu seharian pake hijab dari @agtsha.id udah nyaman terus murah bangettttttttt mo nangis rasanya cinta deh",
+      "Front-end : ReactJs, Tailwind, Bootstrap, Redux. Back-end: ExpressJS, MySQL, MongoDB",
     link: "",
   },
   {
+    image: logoPI,
     track: "",
     date: "",
     name: "@ifqaadl",
@@ -16,6 +20,7 @@ export const course = [
     link: "",
   },
   {
+    image: logoPI,
     track: "",
     date: "",
     name: "@zemogima",
@@ -23,6 +28,7 @@ export const course = [
     link: "",
   },
   {
+    image: logoPI,
     track: "",
     date: "",
     name: "@tsaniaawk",
@@ -31,6 +37,7 @@ export const course = [
     link: "",
   },
   {
+    image: logoPI,
     track: "",
     date: "",
     name: "@sahiland",
@@ -39,6 +46,7 @@ export const course = [
     link: "",
   },
   {
+    image: logoPI,
     track: "",
     date: "",
     name: "@nisasilha",

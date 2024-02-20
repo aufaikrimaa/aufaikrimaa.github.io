@@ -2,12 +2,12 @@ import border from "../assets/img/border.svg";
 import dot from "../assets/img/dot.svg";
 
 const Learn = ({ course }) => {
-  const { track, date, name, content } = course;
+  const { image, track, date, name, content } = course;
 
   return (
     <>
-      <div className="px-4 flex">
-        <img src={border} className="h-16 pr-4" />
+      <div className="px-4 flex mb-2">
+        <img src={image} className="w-5 h-5 rounded-full mr-3" />
         <div>
           <p className="font-bold text-xs flex">
             {track}
