@@ -122,7 +122,7 @@ function App() {
         {isMobileView ? (
           <div className="px-2">
             {activeTab === "projects" && (
-              <div className="grid gap-0.5 grid-cols-2 sm:grid-cols-1 m-2">
+              <div className="grid gap-0.5 grid-cols-2 sm:grid-cols-1 m-2 animate-slide-right">
                 <div className="m-2">
                   <h1 className="text-xl font-bold ">My Work</h1>
                   <p className="text-xs">
@@ -158,7 +158,7 @@ function App() {
           <div className="flex flex-wrap my-6 px-1">
             <div className="w-2/3 md:w-full md:px-2 z-10 px-5 pb-5 rounded-3xl">
               <h1 className="text-2xl font-bold mx-3 my-3">My work</h1>
-              <div className="grid gap-4 grid-cols-2 sm:grid-cols-1">
+              <div className="grid gap-4 grid-cols-2 sm:grid-cols-1 animate-slide-left">
                 {projects.map((item, index) => (
                   <Projects
                     projects={item}

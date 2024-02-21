@@ -22,7 +22,7 @@ const Skills = ({ isDarkMode }) => {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className={`rounded-full px-1 py-0.5 mr-2 mb-2 text-xs ${
+              className={`rounded-full px-1 py-0.5 mr-2 mb-2 text-xs animate-slide-right ${
                 isDarkMode ? "bg-slate-800" : "bg-gray-200"
               }`}
             >
