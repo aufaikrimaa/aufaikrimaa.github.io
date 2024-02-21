@@ -155,7 +155,7 @@ function App() {
             )}
           </div>
         ) : (
-          <div className="flex flex-wrap my-6 px-1">
+          <div className="flex flex-wrap mb-6 mt-3 px-1">
             <div className="w-2/3 md:w-full md:px-2 z-10 px-5 pb-5 rounded-3xl">
               <h1 className="text-2xl font-bold mx-3 my-3">My work</h1>
               <div className="grid gap-4 grid-cols-2 sm:grid-cols-1 animate-slide-left">

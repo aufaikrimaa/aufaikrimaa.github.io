@@ -2,6 +2,8 @@ import React from "react";
 import profilephoto from "../assets/img/aupa.svg";
 import sun from "../assets/img/light.svg";
 import moon from "../assets/img/dark.svg";
+import iconsDark from "../assets/img/icons-header-dark.svg";
+import iconsLight from "../assets/img/icons-header-light.svg";
 
 function Header({ isDarkMode, toggleDarkMode }) {
   return (
@@ -13,7 +15,7 @@ function Header({ isDarkMode, toggleDarkMode }) {
       >
         <button
           onClick={toggleDarkMode}
-          className={`absolute p-0.5 flex justify-end top-2 right-2 rounded-full ${
+          className={`absolute z-10 p-0.5 flex justify-end top-2 right-2 rounded-full ${
             isDarkMode ? "bg-zinc-900" : "bg-white"
           }`}
         >
@@ -23,6 +25,13 @@ function Header({ isDarkMode, toggleDarkMode }) {
             <img src={sun} className="w-5 h-5" />
           )}
         </button>
+        <div className="absolute flex justify-end right-2 p-1 md:p-0.5">
+          {isDarkMode ? (
+            <img src={iconsDark} className="h-30" />
+          ) : (
+            <img src={iconsLight} />
+          )}
+        </div>
         <img
           src={profilephoto}
           alt="Profile"
