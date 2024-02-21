@@ -16,7 +16,7 @@ const Learn = ({ course }) => {
           </p>
           <p className="text-sm font-bold">{name}</p>
           <p className="text-xs">{content}</p>
-          <p className="text-xs cursor-pointer text-blue-600">
+          <p className="text-xs cursor-pointer text-[#C2B8FD]">
             see credentials &gt;&gt;
           </p>
         </div>

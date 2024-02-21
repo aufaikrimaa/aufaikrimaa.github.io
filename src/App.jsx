@@ -85,7 +85,7 @@ function App() {
             )}
             {activeTab === "skills" && (
               <div className="m-2 skills-md">
-                <Skills />
+                <Skills isDarkMode={isDarkMode} />
               </div>
             )}
             {activeTab === "learn" && (
@@ -114,7 +114,7 @@ function App() {
               </div>
             </div>
             <div className="w-1/3 md:w-full px-4 z-10">
-              <Skills />
+              <Skills isDarkMode={isDarkMode} />
               <div className="rounded-md shadow-md shadow-[#C2B8FD] py-4">
                 <h2 className="text-xl font-bold mx-4 mb-4">
                   Learning experiences

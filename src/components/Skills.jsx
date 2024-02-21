@@ -1,9 +1,10 @@
-const Skills = () => {
+const Skills = ({ isDarkMode }) => {
   const skills = [
     "ExpressJS",
     "ReactJS",
     "Redux",
     "MySQL",
+    "MongoDB",
     "Tailwind",
     "Bootstrap",
     "Javascript",
@@ -21,7 +22,9 @@ const Skills = () => {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="bg-gray-200 rounded-full px-3 py-1 mr-2 mb-2 text-xs"
+              className={`rounded-full px-1 py-0.5 mr-2 mb-2 text-xs ${
+                isDarkMode ? "bg-slate-800" : "bg-gray-200"
+              }`}
             >
               {skill}
             </div>
