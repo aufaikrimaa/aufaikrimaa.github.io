@@ -8,7 +8,7 @@ function Header({ isDarkMode, toggleDarkMode }) {
     <>
       <div
         className={
-          "relative h-20 mb-16 transition-all duration-300 z-1  bg-[#C2B8FD]"
+          "relative h-20 md:h-16 mb-10 transition-all duration-300 z-1 bg-[#C2B8FD]"
         }
       >
         <button
@@ -26,12 +26,12 @@ function Header({ isDarkMode, toggleDarkMode }) {
         <img
           src={profilephoto}
           alt="Profile"
-          className={`absolute z-10 left-8 sm:left-4 w-18 h-18 rounded-full overflow-hidden mt-12 border-4 ${
+          className={`absolute z-10 left-8 md:left-4 h-18 md:h-16 w-auto rounded-full overflow-hidden mt-12 md:mt-8 border-4 ${
             isDarkMode ? "border-zinc-900" : "border-white"
           }`}
         />
-        <div className="absolute ml-18 sm:ml-12 pl-10 z-10 mt-14">
-          <h1 className="text-2xl font-bold mt-7">AUFA IKRIMAH</h1>
+        <div className="absolute ml-18 md:ml-8 pl-10 z-10 mt-14 md:mt-8">
+          <h1 className="text-3xl md:text-2xl font-bold mt-7">Aufa Ikrimah</h1>
         </div>
       </div>
     </>

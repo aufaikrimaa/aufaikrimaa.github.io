@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Learn from "./components/Learn";
 import Skills from "./components/Skills";
+import Bio from "./components/Bio";
 import { projects } from "./data/projectsData";
 import { course } from "./data/courseData";
 
@@ -40,12 +41,14 @@ function App() {
   return (
     <div className={`app ${isDarkMode ? "dark" : "light"}`}>
       <Header isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+      <div className="w-3/5 xl:w-4/5 md:w-full px-6 md:px-4">
+        <Bio />
+      </div>
 
       {/* Main Content */}
-      <div className="tabs grid gap-4 grid-cols-3">
-        {/* Render tab buttons hanya saat di mode mobile */}
-        {isMobileView && (
-          <>
+      {isMobileView && (
+        <>
+          <div className="tabs grid gap-4 grid-cols-3 mt-5 px-2">
             <button
               className={activeTab === "projects" ? "active" : ""}
               onClick={() => handleTabChange("projects")}
@@ -64,16 +67,14 @@ function App() {
             >
               Course & Certification
             </button>
-          </>
-        )}
-      </div>
-
+          </div>
+        </>
+      )}
       <div className="tab-content">
-        {/* Render konten sesuai tab yang aktif */}
         {isMobileView ? (
-          <div>
+          <div className="px-2">
             {activeTab === "projects" && (
-              <div className="grid gap-4 grid-cols-2 sm:grid-cols-1 m-4">
+              <div className="grid gap-0.5 grid-cols-2 sm:grid-cols-1 m-2">
                 <div className="m-2">
                   <h1 className="text-xl font-bold ">My Work</h1>
                   <p className="text-xs">
@@ -106,7 +107,7 @@ function App() {
             )}
           </div>
         ) : (
-          <div className="flex flex-wrap my-6">
+          <div className="flex flex-wrap my-6 px-1">
             <div className="w-2/3 md:w-full md:px-2 z-10 px-5 pb-5 rounded-3xl">
               <h1 className="text-2xl font-bold mx-3 my-3">My work</h1>
               <div className="grid gap-4 grid-cols-2 sm:grid-cols-1">
