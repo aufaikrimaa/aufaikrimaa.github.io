@@ -1,8 +1,11 @@
-import border from "../assets/img/border.svg";
 import dot from "../assets/img/dot.svg";
 
 const Learn = ({ course }) => {
-  const { image, track, date, name, content } = course;
+  const { image, track, date, name, content, link } = course;
+
+  const handleClickLink = () => {
+    window.open(link, "_blank");
+  };
 
   return (
     <>
@@ -12,13 +15,18 @@ const Learn = ({ course }) => {
           <p className="font-bold text-xs flex">
             {track}
             <img src={dot} alt="dot" className="h-0.5 m-1" />
-            <span className="font-normal">{date}</span>
+            <span className="font-normal italic">{date}</span>
           </p>
           <p className="text-sm font-bold">{name}</p>
           <p className="text-xs">{content}</p>
-          <p className="text-xs cursor-pointer text-[#C2B8FD]">
-            see credentials &gt;&gt;
-          </p>
+          {link && (
+            <p
+              onClick={handleClickLink}
+              className="text-xs cursor-pointer text-[#C2B8FD]"
+            >
+              see credentials &gt;&gt;
+            </p>
+          )}
         </div>
       </div>
     </>

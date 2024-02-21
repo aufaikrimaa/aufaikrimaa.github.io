@@ -12,12 +12,11 @@ export const course = [
   },
   {
     image: logoPI,
-    track: "",
-    date: "",
-    name: "@ifqaadl",
-    content:
-      "Kerudungnya tu super nyamannn, murah dan gampang diatur, pokonya recomended bangett dehh!!",
-    link: "",
+    track: "BNSP",
+    date: "August 02, 2023",
+    name: "Programmer",
+    content: "Certificate of Competence in the area of Software Development",
+    link: "https://drive.google.com/file/d/1PHlPkjjhlYmRcfBzlcRkCyglpLw3XPg7/view?usp=drive_link",
   },
   {
     image: logoPI,

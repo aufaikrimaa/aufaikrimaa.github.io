@@ -8,11 +8,18 @@ function Projects({ projects, isDarkMode }) {
 
   const handleMouseEnter = () => {
     setShowTooltip(true);
-    setTooltipPosition({ x: e.clientX, y: e.clientY });
   };
 
   const handleMouseLeave = () => {
     setShowTooltip(false);
+  };
+
+  const handleClickLink = () => {
+    window.open(link, "_blank");
+  };
+
+  const handleClickGithub = () => {
+    window.open(github, "_blank");
   };
 
   return (
@@ -25,6 +32,7 @@ function Projects({ projects, isDarkMode }) {
         }`}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
+        onClick={handleClickLink}
       >
         <div className="px-4 py-1 sm:px-2 mb-2">
           <img
@@ -46,7 +54,10 @@ function Projects({ projects, isDarkMode }) {
               </div>
             ))}
           </div>
-          <div className="flex items-center justify-end">
+          <div
+            onClick={handleClickGithub}
+            className="flex items-center justify-end"
+          >
             <div className="flex cursor-pointer py-1 text-xs text-[#C2B8FD] transition-transform duration-300 ease-in-out hover:scale-105">
               <span>See documentation on GitHub</span>
               <img
@@ -65,6 +76,7 @@ function Projects({ projects, isDarkMode }) {
             style={{
               top: tooltipPosition.y - 20,
               right: tooltipPosition.x + 10,
+              animation: "scaleIn 0.3s ease forwards",
             }}
           >
             Click this card to access {title} page !

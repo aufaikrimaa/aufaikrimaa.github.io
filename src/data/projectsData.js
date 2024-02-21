@@ -12,8 +12,8 @@ export const projects = [
     photo: silk,
     lang: ["ReactJs", "ExpressJS", "Bootstrap", "MySQL"],
     desc: "platform ruang diskusi",
-    link: "",
-    github: "",
+    link: "https://shetalk.netlify.app/",
+    github: "https://github.com/aufaikrimaa/shetalk-app.git",
   },
   {
     id: 1,

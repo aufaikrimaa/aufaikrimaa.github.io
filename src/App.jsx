@@ -74,6 +74,12 @@ function App() {
           <div>
             {activeTab === "projects" && (
               <div className="grid gap-4 grid-cols-2 sm:grid-cols-1 m-4">
+                <div className="m-2">
+                  <h1 className="text-xl font-bold ">My Work</h1>
+                  <p className="text-xs">
+                    Click any card to access the web page !
+                  </p>
+                </div>
                 {projects.map((item, index) => (
                   <Projects
                     projects={item}
@@ -89,8 +95,8 @@ function App() {
               </div>
             )}
             {activeTab === "learn" && (
-              <div className="rounded-md shadow-md shadow-rose-200 py-4 m-2">
-                <h1 className="text-2xl font-bold mx-3 mb-5">
+              <div className="rounded-md shadow-md shadow-[#C2B8FD] py-4 m-2">
+                <h1 className="text-xl font-bold mx-3 mb-5">
                   Learning experiences
                 </h1>
                 {course.map((course, index) => (
