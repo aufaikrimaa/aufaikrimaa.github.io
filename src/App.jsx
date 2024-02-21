@@ -62,7 +62,7 @@ function App() {
               className={activeTab === "learn" ? "active" : ""}
               onClick={() => handleTabChange("learn")}
             >
-              Learning Experiences
+              Course & Certification
             </button>
           </>
         )}
@@ -97,7 +97,7 @@ function App() {
             {activeTab === "learn" && (
               <div className="rounded-md shadow-md shadow-[#C2B8FD] py-4 m-2">
                 <h1 className="text-xl font-bold mx-3 mb-5">
-                  Learning experiences
+                  Course & Certification
                 </h1>
                 {course.map((course, index) => (
                   <Learn key={index} course={course} />
@@ -123,7 +123,7 @@ function App() {
               <Skills isDarkMode={isDarkMode} />
               <div className="rounded-md shadow-md shadow-[#C2B8FD] py-4">
                 <h2 className="text-xl font-bold mx-4 mb-4">
-                  Learning experiences
+                  Course & Certification
                 </h2>
                 {course.map((course, index) => (
                   <Learn key={index} course={course} />
