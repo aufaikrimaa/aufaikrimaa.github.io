@@ -38,7 +38,9 @@ function Projects({ projects, isDarkMode }) {
           <img
             src={photo}
             alt={title}
-            className="w-6 h-auto mb-3 mt-2 rounded-full"
+            className={`w-6 h-auto mb-3 mt-2 rounded-full border-2 ${
+              isDarkMode ? "border-slate-800" : "border-gray-200"
+            }`}
           />
           <h1 className="text-lg sm:text-md font-bold mb-1">{title}</h1>
           <p className="text-sm mb-2">{desc}</p>
