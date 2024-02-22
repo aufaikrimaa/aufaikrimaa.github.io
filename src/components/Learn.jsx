@@ -9,7 +9,7 @@ const Learn = ({ course }) => {
 
   return (
     <>
-      <div className="px-4 flex mb-2 animate-slide-right">
+      <div className="px-4 flex mb-4 animate-slide-right">
         <img src={image} className="w-5 h-5 rounded-full mr-3" />
         <div>
           <p className="font-bold text-xs flex">
