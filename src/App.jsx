@@ -139,12 +139,12 @@ function App() {
               </div>
             )}
             {activeTab === "skills" && (
-              <div className="m-2 skills-md">
+              <div className="m-2 skills-md animate-slide-right">
                 <Skills isDarkMode={isDarkMode} />
               </div>
             )}
             {activeTab === "learn" && (
-              <div className="rounded-md shadow-md shadow-[#C2B8FD] py-4 m-2">
+              <div className="rounded-md shadow-md shadow-[#C2B8FD] py-4 m-2 animate-slide-right">
                 <h1 className="text-xl font-bold mx-3 mb-5">
                   Course & Certification
                 </h1>
