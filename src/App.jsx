@@ -149,7 +149,7 @@ function App() {
                   Course & Certification
                 </h1>
                 {course.map((course, index) => (
-                  <Learn key={index} course={course} />
+                  <Learn key={index} course={course} isDarkMode={isDarkMode} />
                 ))}
               </div>
             )}
@@ -175,7 +175,7 @@ function App() {
                   Course & Certification
                 </h2>
                 {course.map((course, index) => (
-                  <Learn key={index} course={course} />
+                  <Learn key={index} course={course} isDarkMode={isDarkMode} />
                 ))}
               </div>
             </div>

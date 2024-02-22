@@ -1,6 +1,8 @@
 import dot from "../assets/img/dot.svg";
+import noIcon from "../assets/img/noicon.png";
+import noIconD from "../assets/img/noicondark.png";
 
-const Learn = ({ course }) => {
+const Learn = ({ course, isDarkMode }) => {
   const { image, track, date, name, content, link } = course;
 
   const handleClickLink = () => {
@@ -10,7 +12,21 @@ const Learn = ({ course }) => {
   return (
     <>
       <div className="px-4 flex mb-4 animate-slide-right">
-        <img src={image} className="w-5 h-5 rounded-full mr-3" />
+        {image ? (
+          <img
+            src={image}
+            className={`w-5 h-5 rounded-full mr-3 border-2 ${
+              isDarkMode ? "border-slate-800" : "border-gray-200"
+            }`}
+          />
+        ) : (
+          <img
+            src={isDarkMode ? noIconD : noIcon}
+            className={`w-5 h-5 rounded-full mr-3 border-2 ${
+              isDarkMode ? "border-slate-800" : "border-gray-200"
+            }`}
+          />
+        )}
         <div>
           <p className="font-bold text-xs flex">
             {track}
