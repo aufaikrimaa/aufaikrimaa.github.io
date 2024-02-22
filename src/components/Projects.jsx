@@ -23,7 +23,7 @@ function Projects({ projects, isDarkMode }) {
   };
 
   return (
-    <div>
+    <div className="">
       <div
         className={`w-full rounded-lg z-10 cursor-pointer relative ${
           isDarkMode
@@ -34,7 +34,7 @@ function Projects({ projects, isDarkMode }) {
         onMouseLeave={handleMouseLeave}
         onClick={handleClickLink}
       >
-        <div className="px-4 py-1 sm:px-2 mb-2">
+        <div className="px-4 py-1 md:px-4 mb-2">
           <img
             src={photo}
             alt={title}
