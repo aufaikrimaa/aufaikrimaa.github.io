@@ -48,7 +48,7 @@ export const projects = [
     photo: profilephoto,
     lang: ["HTML", "CSS", "Bootstrap", "Vanilla Javascript"],
     desc: "My personal website when I was learning HTML, CSS, and JS.",
-    link: "this-is-aufaaa-s-page.netlify.app/",
+    link: "https://this-is-aufaaa-s-page.netlify.app/",
     github: "https://github.com/aufaikrimaa/old-personal-web.git",
   },
   {
