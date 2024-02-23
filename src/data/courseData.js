@@ -50,7 +50,7 @@ export const course = [
   {
     image: "",
     track: "Self learning",
-    date: "January, 2023 - June, 2023",
+    date: "January - June, 2023",
     name: "Framwork Laravel & Library ReactJS",
     content:
       "I built the TourGo App using the Laravel Framework and the ReactJS Library, learning them on my own through the internet",
@@ -59,7 +59,7 @@ export const course = [
   {
     image: logoBSI,
     track: "UBSI University",
-    date: "September, 2022 - December, 2022",
+    date: "Sept - Dec, 2022",
     name: "Mobile Programming",
     content: "Learning mobile app development with flutter",
     link: "",
@@ -67,7 +67,7 @@ export const course = [
   {
     image: logoBSI,
     track: "UBSI University",
-    date: "September, 2021 - June, 2022",
+    date: "Sept, 2021 - June, 2022",
     name: "Web Programming",
     content: "Learning web development with CodeIgniter 3",
     link: "",
@@ -75,7 +75,7 @@ export const course = [
   {
     image: logoCisco,
     track: "Cisco Networking Academy",
-    date: "Mei - August, 2021",
+    date: "August, 2021",
     name: "PCAP: Programming Essentials in Python",
     content: "",
     link: "https://drive.google.com/file/d/1fmOyFe1XobPqQRxoas6k1FDxfYQ13hwc/view?usp=drive_link",
@@ -83,7 +83,7 @@ export const course = [
   {
     image: logoBSI,
     track: "UBSI University",
-    date: "Maret - Juni, 2021",
+    date: "March - June, 2021",
     name: "Database System",
     content: "Learning SQL language for database management",
     link: "",
@@ -91,7 +91,7 @@ export const course = [
   {
     image: logoBSI,
     track: "UBSI University",
-    date: "August, 2020 - January 2021",
+    date: "August, 2020 - Jan 2021",
     name: "Fundamentals of Python Programming",
     content: "Learning to build programs with the Python language",
     link: "",

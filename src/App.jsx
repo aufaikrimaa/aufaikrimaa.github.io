@@ -123,8 +123,8 @@ function App() {
           <div className="px-2">
             {activeTab === "projects" && (
               <div className="grid gap-0.5 grid-cols-2 sm:grid-cols-1 m-2 animate-slide-right">
-                <div className="m-2">
-                  <h1 className="text-xl font-bold ">My Work</h1>
+                <div className="m-2 animate-slide-right">
+                  <h1 className="text-xl font-bold">My Work</h1>
                   <p className="text-xs">
                     Click any card to access the web page !
                   </p>
@@ -156,9 +156,11 @@ function App() {
           </div>
         ) : (
           <div className="flex flex-wrap mb-6 mt-3 px-1">
-            <div className="w-2/3 md:w-full md:px-2 z-10 px-5 pb-5 rounded-3xl">
-              <h1 className="text-2xl font-bold mx-3 my-3">My work</h1>
-              <div className="grid gap-4 grid-cols-2 sm:grid-cols-1 animate-slide-left">
+            <div className="w-2/3 md:w-full md:px-2 z-10 px-5 pb-5 rounded-3xl animate-slide-left">
+              <h1 className="text-2xl font-bold mx-3 my-3 animate-slide-left">
+                My work
+              </h1>
+              <div className="grid gap-4 grid-cols-2 sm:grid-cols-1">
                 {projects.map((item, index) => (
                   <Projects
                     projects={item}
@@ -168,9 +170,9 @@ function App() {
                 ))}
               </div>
             </div>
-            <div className="w-1/3 md:w-full px-4 z-10">
+            <div className="w-1/3 md:w-full px-4 z-10 animate-slide-right">
               <Skills isDarkMode={isDarkMode} />
-              <div className="rounded-md shadow-md shadow-[#C2B8FD] py-4">
+              <div className="rounded-md shadow-md shadow-[#C2B8FD] py-4 animate-slide-right">
                 <h2 className="text-xl font-bold mx-4 mb-4">
                   Course & Certification
                 </h2>
