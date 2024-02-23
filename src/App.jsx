@@ -49,7 +49,7 @@ function App() {
       {isMobileView && (
         <>
           <div className="tabs grid gap-4 grid-cols-3 mt-5 px-2">
-            <button
+            <div
               className={`tabi ${activeTab === "projects" ? "active" : ""}`}
               onClick={() => handleTabChange("projects")}
             >
@@ -70,8 +70,8 @@ function App() {
                   fill="#ADAFB4"
                 />
               </svg>
-            </button>
-            <button
+            </div>
+            <div
               className={`tabi ${activeTab === "skills" ? "active" : ""}`}
               onClick={() => handleTabChange("skills")}
             >
@@ -95,8 +95,8 @@ function App() {
                   </clipPath>
                 </defs>
               </svg>
-            </button>
-            <button
+            </div>
+            <div
               className={`tabi ${activeTab === "learn" ? "active" : ""}`}
               onClick={() => handleTabChange("learn")}
             >
@@ -113,7 +113,7 @@ function App() {
                   fill="#ADAFB4"
                 />
               </svg>
-            </button>
+            </div>
           </div>
           <hr className="tab-divider mx-2" id="active-tab-line" />
         </>
