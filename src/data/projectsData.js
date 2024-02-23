@@ -3,6 +3,7 @@ import shetalk from "../assets/img/shetalk-logo.svg";
 import todolist from "../assets/img/todolist.svg";
 import agtsha from "../assets/img/agtsha.jpg";
 import bmi from "../assets/img/bmicalc.svg";
+import profilephoto from "../assets/img/aupa.svg";
 
 export const projects = [
   {
@@ -43,12 +44,12 @@ export const projects = [
   },
   {
     id: 1,
-    title: "To Do List Server",
-    photo: todolist,
-    lang: ["NodeJs", "ExpressJS", "MySQL"],
-    desc: "Web Service & RESTful API for To Do List Application.",
-    link: "https://kind-lime-cockroach-belt.cyclic.app/",
-    github: "https://github.com/aufaikrimaa/todolist-be.git",
+    title: "My Old Personal Web",
+    photo: profilephoto,
+    lang: ["HTML", "CSS", "Bootstrap", "Vanilla Javascript"],
+    desc: "My personal website when I was learning HTML, CSS, and JS.",
+    link: "this-is-aufaaa-s-page.netlify.app/",
+    github: "https://github.com/aufaikrimaa/old-personal-web.git",
   },
   {
     id: 1,
