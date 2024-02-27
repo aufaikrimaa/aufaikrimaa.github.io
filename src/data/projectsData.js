@@ -12,7 +12,7 @@ export const projects = [
     photo: shetalk,
     lang: ["ReactJs", "Redux", "ExpressJS", "Bootstrap", "MySQL"],
     desc: "Discussion forum focusing on sexual and reproductive health.",
-    link: "https://shetalk.netlify.app/",
+    link: "https://shetalks.netlify.app/",
     github: "https://github.com/aufaikrimaa/shetalk-app.git",
   },
   {
