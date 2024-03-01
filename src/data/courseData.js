@@ -51,7 +51,7 @@ export const course = [
     image: "",
     track: "Self learning",
     date: "January - June, 2023",
-    name: "Framwork Laravel & Library ReactJS",
+    name: "Framework Laravel & Library ReactJS",
     content:
       "I built the TourGo App using the Laravel Framework and the ReactJS Library, learning them on my own through the internet",
     link: "",

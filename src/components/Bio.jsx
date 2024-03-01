@@ -18,7 +18,7 @@ function Bio() {
     {
       name: "aufaikrimah",
       img: linkedinIcon,
-      link: "https://www.linkedin.com/in/aufa-ikrimah-rohmawati-a70b33230/",
+      link: "https://www.linkedin.com/in/aufa-ikrimah/",
     },
     {
       name: "my resume",
