@@ -1,5 +1,5 @@
 import React from "react";
-import profilephoto from "../assets/img/aupa.svg";
+import profilephoto from "../assets/img/aupa.png";
 import sun from "../assets/img/light.svg";
 import moon from "../assets/img/dark.svg";
 import iconsDark from "../assets/img/icons-header-dark.svg";
