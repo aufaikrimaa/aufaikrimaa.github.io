@@ -23,7 +23,7 @@ function Bio() {
     {
       name: "my resume",
       img: resumeIcon,
-      link: "https://drive.google.com/file/d/1S1x4LqugHLPkyUxgamr69SUnn6aQutfS/view?usp=drive_link",
+      link: "https://aufaikrimaa.github.io/resume/",
     },
   ];
 
